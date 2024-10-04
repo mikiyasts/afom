@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+.card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+}
+.card_img{
+    width: 349px;
+    height: 200px;
+    object-fit: fill;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    gap: 20px;
+}
+.blog_info{
+    display: flex;
+    align-items: space-around;
+}
+.blog_post{
+    width: 1000px;
+    margin: auto;
+}
+.blog_post_img{
+    width: 1000px;
+    object-fit: cover;
+}
+
+.blog_detail_title{
+    color:red;
+}

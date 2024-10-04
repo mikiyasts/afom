@@ -1,0 +1,2518 @@
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "blogsite/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python27/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "blogsite/settings.py", line 13, in <module>
+    from pathlib import Path
+ImportError: No module named pathlib
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "blogsite/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python27/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "blogsite/settings.py", line 13, in <module>
+    from pathlib import Path
+ImportError: No module named pathlib
+[UID:2655][3374573] Child process with pid: 3374582 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "blogsite/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python27/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "blogsite/settings.py", line 13, in <module>
+    from pathlib import Path
+ImportError: No module named pathlib
+[UID:2655][3374573] Child process with pid: 3381301 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "blogsite/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/__init__.py", line 22, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib/python2.7/site-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python27/lib64/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "blogsite/settings.py", line 13, in <module>
+    from pathlib import Path
+ImportError: No module named pathlib
+[UID:2655][3374573] Child process with pid: 3381302 was killed by signal: 15, core dump: 0
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f02cf8e4740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007ff5e623f740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f92d4276740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f64acbb5740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fd5f752f740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f9415c3a740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f4026117740 (most recent call first):
+<no Python frame>
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007febba3e4740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f4afbc8c740 (most recent call first):
+<no Python frame>
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f81bf1fa740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f2f149b3740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007efe4219e740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f3107341740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f179a401740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fbd8c057740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fc184741740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f7f8d7c7740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fd7e722e740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f2217206740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f99f59bc740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fdebf7c1740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007ff9e2c3b740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007fda38722740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f8d72eac740 (most recent call first):
+<no Python frame>
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f275e7dc740 (most recent call first):
+<no Python frame>
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+Python path configuration:
+  PYTHONHOME = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  PYTHONPATH = '.:/home/afombrtu/backend.afombridal.com/Server/'
+  program name = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.base_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.base_exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.executable = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/bin/python'
+  sys.prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.exec_prefix = '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7'
+  sys.path = [
+    '.',
+    '/home/afombrtu/backend.afombridal.com/Server/',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python38.zip',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8',
+    '/home/afombrtu/virtualenv/backend.afombridal.com/Server/2.7/lib64/python3.8/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007f120f45e740 (most recent call first):
+<no Python frame>
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Not Found: /favicon.ico
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+OSError: LSAPI: Socket read/write error
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/afombrtu/backend.afombridal.com/Server/blogApp/views.py", line 20, in home
+    return render(request, 'home.html',context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/template/defaulttags.py", line 194, in render
+    len_values = len(values)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 380, in __len__
+    self._fetch_all()
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/afombrtu/virtualenv/backend.afombridal.com/Server/3.8/lib64/python3.8/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'afombrtu_website.blogApp_post' doesn't exist")
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/style.css
+Not Found: /static/style.css
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /appointments
+Not Found: /api/appointments
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/default.js
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/style.css
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/css/prettify.css
+AnonymousUser
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/css/default.css
+Method Not Allowed: /api/login/
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Method Not Allowed: /api/login/
+Not Found: /api/reservations/
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Not Found: /api/reserveddaets/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+AnonymousUser
+AnonymousUser
+Not Found: /static/style.css
+Not Found: /favicon.ico
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+AnonymousUser
+[UID:2655][460351] Child process with pid: 460384 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /favicon.ico
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/default.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/js/jquery-3.7.1.min.js
+Not Found: /static/rest_framework/js/csrf.js
+Not Found: /static/rest_framework/js/ajax-form.js
+Not Found: /static/rest_framework/js/bootstrap.min.js
+Not Found: /static/rest_framework/js/prettify-min.js
+Not Found: /static/rest_framework/js/default.js
+Not Found: /static/rest_framework/js/load-ajax-form.js
+Not Found: /static/style.css
+AnonymousUser
+[UID:2655][460351] Child process with pid: 475052 was killed by signal: 15, core dump: 0
+Not Found: /static/style.css
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+Not Found: /static/style.css
+Not Found: /favicon.ico
+AnonymousUser
+AnonymousUser
+Not Found: /static/style.css
+Not Found: /favicon.ico
+AnonymousUser
+AnonymousUser
+OSError: LSAPI: Socket read/write error
+[UID:2655][745306] Child process with pid: 745321 was killed by signal: 15, core dump: 0
+[UID:2655][745306] Child process with pid: 745320 was killed by signal: 15, core dump: 0
+[UID:2655][863893] Child process with pid: 863919 was killed by signal: 15, core dump: 0
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/default.css
+[UID:2655][863893] Child process with pid: 912372 was killed by signal: 15, core dump: 0
+Not Found: /static/rest_framework/css/bootstrap.min.css
+Not Found: /static/rest_framework/css/prettify.css
+Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+Not Found: /static/rest_framework/css/default.css
+[UID:2655][863893] Child process with pid: 912397 was killed by signal: 15, core dump: 0
+AnonymousUser
+AnonymousUser
+[UID:2655][957028] Child process with pid: 990887 was killed by signal: 15, core dump: 0
+Not Found: /static/style.css
+Not Found: /favicon.ico
+AnonymousUser
+[UID:2655][1075123] Child process with pid: 1108212 was killed by signal: 15, core dump: 0
+[UID:2655][1075123] Child process with pid: 1108211 was killed by signal: 15, core dump: 0
+[UID:2655][1075123] Child process with pid: 1119122 was killed by signal: 15, core dump: 0
+Not Found: /api/reserved_date/
+Not Found: /static/style.css
+[UID:2655][1075123] Child process with pid: 1124541 was killed by signal: 15, core dump: 0
+[UID:2655][1075123] Child process with pid: 1124571 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+OSError: LSAPI: Socket read/write error
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+[UID:2655][1204479] Child process with pid: 1204491 was killed by signal: 15, core dump: 0
+AnonymousUser
+[UID:2655][1243121] Child process with pid: 1245102 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+AnonymousUser
+AnonymousUser
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+AnonymousUser
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+[UID:2655][1543882] Child process with pid: 1590807 was killed by signal: 15, core dump: 0
+[UID:2655][1543882] Child process with pid: 1592761 was killed by signal: 15, core dump: 0
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+AnonymousUser
+AnonymousUser
+AnonymousUser
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+[UID:2655][107019] Child process with pid: 107248 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][107019] Child process with pid: 111851 was killed by signal: 15, core dump: 0
+[UID:2655][746055] Child process with pid: 763933 was killed by signal: 15, core dump: 0
+[UID:2655][746055] Child process with pid: 763932 was killed by signal: 15, core dump: 0
+[UID:2655][934826] Child process with pid: 936617 was killed by signal: 15, core dump: 0
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+[UID:2655][1193485] Child process with pid: 1193522 was killed by signal: 15, core dump: 0
+[UID:2655][1254675] Child process with pid: 1254681 was killed by signal: 15, core dump: 0
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+[UID:2655][1443226] Child process with pid: 1443261 was killed by signal: 15, core dump: 0
+[UID:2655][1443226] Child process with pid: 1453634 was killed by signal: 15, core dump: 0
+[UID:2655][1443226] Child process with pid: 1453784 was killed by signal: 15, core dump: 0
+[UID:2655][1443226] Child process with pid: 1454091 was killed by signal: 15, core dump: 0
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+AnonymousUser
+AnonymousUser
+OSError: LSAPI: File error
+[UID:2655][2860094] Child process with pid: 2860126 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][2860094] Child process with pid: 2860127 was killed by signal: 15, core dump: 0
+[UID:2655][2860094] Child process with pid: 2872073 was killed by signal: 15, core dump: 0
+[UID:2655][3017522] Child process with pid: 3019348 was killed by signal: 15, core dump: 0
+[UID:2655][3038322] Child process with pid: 3040148 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+Not Found: /favicon.ico
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2655][3038322] Child process with pid: 3110584 was killed by signal: 15, core dump: 0
+[UID:2655][3038322] Child process with pid: 3110602 was killed by signal: 15, core dump: 0
+[UID:2655][3038322] Child process with pid: 3110585 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+AnonymousUser
+[UID:2655][3196299] Child process with pid: 3196325 was killed by signal: 15, core dump: 0
+[UID:2655][3196299] Child process with pid: 3196489 was killed by signal: 15, core dump: 0
+[UID:2655][3196299] Child process with pid: 3196492 was killed by signal: 15, core dump: 0
+AnonymousUser
+AnonymousUser
+[UID:2655][4146907] Child process with pid: 4146925 was killed by signal: 15, core dump: 0
+[UID:2655][4146907] Child process with pid: 4146924 was killed by signal: 15, core dump: 0
+[UID:2655][4146907] Child process with pid: 4158542 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][4146907] Child process with pid: 4158100 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+[UID:2655][4146907] Child process with pid: 4163061 was killed by signal: 15, core dump: 0
+Not Found: //media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpg
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+Not Found: //media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpg
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+Not Found: //media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpg
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+[UID:2655][4146907] Child process with pid: 4185318 was killed by signal: 15, core dump: 0
+Not Found: //media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpg
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+[UID:2655][59790] Child process with pid: 59814 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+OSError: LSAPI: Socket read/write error
+[UID:2655][93966] Child process with pid: 94976 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2655][93966] Child process with pid: 149509 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+Not Found: /media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpgh
+Not Found: /media/images/marc-a-sporys-wAHX8s9M2Gc-unsplash.jpgh
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+[UID:2655][350281] Child process with pid: 433404 was killed by signal: 15, core dump: 0
+[UID:2655][350281] Child process with pid: 474248 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+[UID:2655][350281] Child process with pid: 507220 was killed by signal: 15, core dump: 0
+[UID:2655][350281] Child process with pid: 514308 was killed by signal: 15, core dump: 0
+[UID:2655][350281] Child process with pid: 507219 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2655][350281] Child process with pid: 606385 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+[UID:2655][350281] Child process with pid: 638432 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+[UID:2655][677457] Child process with pid: 677465 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][703477] Child process with pid: 703586 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2655][703477] Child process with pid: 704546 was killed by signal: 15, core dump: 0
+[UID:2655][703477] Child process with pid: 704418 was killed by signal: 15, core dump: 0
+[UID:2655][703477] Child process with pid: 705730 was killed by signal: 15, core dump: 0
+Not Found: /favicon.ico
+Not Found: /sitemap.xml
+Not Found: /robots.txt
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Not Found: /sitemap.xml
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+OSError: LSAPI: File error
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+AnonymousUser
+AnonymousUser
+[UID:2655][2893577] Child process with pid: 2893600 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][2893577] Child process with pid: 2925571 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2941211 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2941210 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2941485 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2941510 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2941318 was killed by signal: 15, core dump: 0
+[UID:2655][2893577] Child process with pid: 2960561 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+Unauthorized: /api/getuser/
+Unauthorized: /api/getuser/
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Unauthorized: /api/getuser/
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: File error
+[UID:2655][3357747] Child process with pid: 3408013 was killed by signal: 15, core dump: 0
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: None
+No token provided
+OSError: LSAPI: Socket read/write error
+Bad Request: /api/appointment-create/
+Bad Request: /api/appointment-create/
+Bad Request: /api/appointment-create/
+Bad Request: /api/appointment-create/
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+AnonymousUser
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+[UID:2655][3357747] Child process with pid: 3492044 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+AnonymousUser
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/[object%20Object]/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Not Found: /api/collection/undefined/
+Bad Request: /api/appointment-create/
+Bad Request: /api/appointment-create/
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Not Found: /favicon.ico
+Not Found: /media/images/
+Not Found: /media/
+[UID:2655][103240] Child process with pid: 105714 was killed by signal: 15, core dump: 0
+[UID:2655][103240] Child process with pid: 103284 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+[UID:2655][103240] Child process with pid: 108350 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+OSError: LSAPI: Socket read/write error
+[UID:2655][635461] Child process with pid: 655603 was killed by signal: 15, core dump: 0
+OSError: LSAPI: Socket read/write error
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+[UID:2655][696442] Child process with pid: 696466 was killed by signal: 15, core dump: 0
+AnonymousUser
+[UID:2655][893916] Child process with pid: 917028 was killed by signal: 15, core dump: 0
+AnonymousUser
+AnonymousUser
+AnonymousUser
+AnonymousUser
+admin
+OSError: LSAPI: Socket read/write error
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Not Found: /api/collections
+[UID:2655][2576889] Child process with pid: 2585706 was killed by signal: 15, core dump: 0
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta.app_420107319_18414637729006423_4355369348613412347_n_1080.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/bride1_AAvefj8.jpg
+Not Found: /media/images/afom_back2.jpeg
+Not Found: /media/images/Snapinsta_app_327874408_531869372083932_68005818311511269_n_1080.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/Snapinsta.app_403986093_703394195055075_5821755111193590926_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_324837960_165952012830493_8277745604965164190_n_1080.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/afom_back2.jpeg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/Snapinsta_app_327874408_531869372083932_68005818311511269_n_1080.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta.app_420107319_18414637729006423_4355369348613412347_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_403986093_703394195055075_5821755111193590926_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_324837960_165952012830493_8277745604965164190_n_1080.jpg
+Not Found: /media/images/bride1_AAvefj8.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/bride1_AAvefj8.jpg
+Not Found: /media/images/afom_back2.jpeg
+Not Found: /media/images/Snapinsta_app_327874408_531869372083932_68005818311511269_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_403986093_703394195055075_5821755111193590926_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_324837960_165952012830493_8277745604965164190_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_420107319_18414637729006423_4355369348613412347_n_1080.jpg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/Snapinsta_app_418851553_18411759196006423_4290722828921585401_n.jpg
+Not Found: /media/images/Snapinsta_app_361573515_6498714856838163_3967424123209030071_n_1080.jpg
+Not Found: /media/images/Snapinsta_app_402756763_6672091819556456_8344624074366393758_n_1080_ds2JEZl.jpg
+Not Found: /media/images/bride-BW_2_QVOOZJY.jpg
+Not Found: /media/images/Snapinsta_app_419248299_18411759250006423_697052485801019978_n_1080_P5cucZu.jpg
+Not Found: /media/images/Snapinsta.app_420107319_18414637729006423_4355369348613412347_n_1080.jpg
+Not Found: /media/images/Snapinsta_app_327874408_531869372083932_68005818311511269_n_1080.jpg
+Not Found: /media/images/bride1_AAvefj8.jpg
+Not Found: /media/images/afom_back2.jpeg
+Not Found: /media/images/pexels-abelalemseged-18647882.jpg
+Not Found: /media/images/Snapinsta.app_324837960_165952012830493_8277745604965164190_n_1080.jpg
+Not Found: /media/images/Snapinsta.app_403986093_703394195055075_5821755111193590926_n_1080.jpg
+Not Found: /media/images/Snapinsta_app_418851553_18411759196006423_4290722828921585401_n.jpg
+Not Found: /media/images/Snapinsta_app_361573515_6498714856838163_3967424123209030071_n_1080.jpg
+Not Found: /media/images/Snapinsta_app_402756763_6672091819556456_8344624074366393758_n_1080_ds2JEZl.jpg
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+[UID:2655][2701749] Child process with pid: 2701766 was killed by signal: 15, core dump: 0
+[UID:2655][2701749] Child process with pid: 2701767 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+[UID:2655][2701749] Child process with pid: 2702029 was killed by signal: 15, core dump: 0
+[UID:2655][2701749] Child process with pid: 2702030 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+[UID:2655][2704321] Child process with pid: 2704336 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+[UID:2655][2704321] Child process with pid: 2704428 was killed by signal: 15, core dump: 0
+[UID:2655][2704321] Child process with pid: 2704429 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+Traceback (most recent call last):
+  File "/home/afombrtu/backend.afombridal.com/Server/passenger_wsgi.py", line 4, in <module>
+    from blogsite.wsgi import application
+  File "/home/afombrtu/backend.afombridal.com/Server/blogsite/wsgi.py", line 13, in <module>
+    from whitenoise.django import DjangoWhiteNoise
+ModuleNotFoundError: No module named 'whitenoise.django'
+[UID:2655][2704321] Child process with pid: 2704509 was killed by signal: 15, core dump: 0
+[UID:2655][2704321] Child process with pid: 2704508 was killed by signal: 15, core dump: 0
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /media/image
+Not Found: /media/images/
+Not Found: /media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /images/images/Snapinsta_app_383058349_1004883720744363_4280870646775519246_n_1080.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+Not Found: /server/media/images/Brand_New_Habesha_kemis.jpg
+OSError: LSAPI: Socket read/write error
+[UID:2655][2809508] Child process with pid: 2818471 was killed by signal: 15, core dump: 0
+[UID:2655][2809508] Child process with pid: 2836450 was killed by signal: 15, core dump: 0
+Received token: None
+No token provided
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: None
+No token provided
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+Received token: 5f04ca754e16317211e684a628ff8764919515e9
+[UID:2655][2992414] Child process with pid: 3013645 was killed by signal: 15, core dump: 0

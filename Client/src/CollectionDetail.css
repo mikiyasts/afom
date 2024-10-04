@@ -1,0 +1,140 @@
+
+.collection_detail_body{
+    /* min-height:92vh; */
+    height: fit-content;
+    width:86%;
+    margin: auto;
+    padding:22px;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.collection-detail-main{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    gap:3rem;
+    margin: auto;
+}
+.collection-detail-main_left{
+    width:15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:1.5rem;
+}
+.collection-main-detail_img-side{
+    width:60%;
+    min-width:50px;
+    cursor: pointer;
+    
+}
+.collection-detail-main_middle{
+    width:35%;
+    min-width:220px;
+    height:100%;
+}
+.collection-main-detail_image_full{
+    width:100%;
+}
+.collection-detail-main_right{
+    width:35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.collection-detail-main_right_header>h1{
+    font-weight:900;
+}
+.collection-detail-main_right_price>p{
+    font-weight:600;
+}
+.collection-detail-main_right_color{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.color-circles{
+    display: flex;
+    gap:1rem;
+}
+.color{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    border:1px solid black;
+}
+.color:nth-child(odd){
+    background-color: #111111;
+}
+.material::after{
+    content: " ";
+    height: 1px;
+    width:100%;
+    margin-block: 0.3rem;
+    background:linear-gradient(90deg , white 7%,#b4b4b4af);
+    
+    display: block;
+}
+.material_Desc{
+    line-height: 2rem;
+    min-width: 202px;
+}
+.collection-detail-description{
+    width:60%;
+    line-height: 2rem;
+}
+.detail-desc>p{
+    font-weight:600;
+}
+.detail-desc-head:after{
+    content: " ";
+    height: 1px;
+    width:100%;
+    margin-block: 0.3rem;
+    background:linear-gradient(90deg , white 7%,#b4b4b4af);
+    display: block;
+}
+
+.related-collection-head{
+    text-align: center;
+    margin-block: 1rem;
+}
+
+.related-cards{
+    width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  padding-top: 5px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.related-cards::-webkit-scrollbar{
+    display:none;
+}
+.related-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:618px){
+    .collection-detail-main{
+        flex-direction: column;
+    }
+    .collection-detail-main_left{
+        flex-direction: row;
+    }
+    .collection-detail-main_right{
+        width:100%;
+    }
+    .collection-detail-description{
+        width:90%;
+        
+    }
+  }

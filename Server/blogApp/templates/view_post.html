@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% load humanize %} {% block pageContent %}
+<style>
+    .blog_post:-webkit-scrollbar{
+        display: none;
+    }
+</style>
+
+<section className="blog_post" style="width:90%; min-width: 220px; margin:auto; overflow-x: scroll; hyphens: auto;
+-webkit-hyphens: auto;" >
+    <div>
+        <div >
+            <div >
+               
+                <div >
+                    <div class="author">
+                            <img style='width:80px; height:80px; border-radius: 50%; object-fit: cover; object-position: center;' src="{% if post.banner %}https://afombridal.com{{post.banner.url }}{% else %}{{ MEDIA_URL}}/media/default/python-django.png{% endif %}" alt="" className="blog_post_img" > <br>
+                        <small><b>{{ post.author }}</b></small>
+                    </div>
+                    <h4 class="blog_detail_title" style="font-size: clamp(2rem,2.5vw,5rem); text-wrap: balanced;">{{ post.title }}</h4>
+                   
+                    <div class="header_line">
+                        <span  ><small>Category: <b>{{ post.category }}</b></small></span>
+                        <div className="blog_info">
+                            
+                            <div ><small><i ></i><b>{{ post.date_added|timesince }}</b></small></div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+
+                    <center >
+                        <img style='width:35%; min-width: 217px; padding-top:20px; object-fit: cover; object-position: center;' src="{% if post.banner %}https://afombridal.com{{post.banner.url }}{% else %}{{ MEDIA_URL}}/media/default/python-django.png{% endif %}" alt="" className="blog_post_img" >
+                    </center>
+                    <div ></div>
+                    <div class="blog-body" style="padding: 0;">{{ post.blog_post|safe }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</div>{% endblock pageContent %}

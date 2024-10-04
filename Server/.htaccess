@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Check if the request is for the media directory
+    RewriteCond %{REQUEST_URI} ^/media/
+    # Check if the requested file exists in the media directory
+    RewriteCond %{DOCUMENT_ROOT}/media/%{REQUEST_URI} -f
+    # Rewrite the URL to serve the file
+    RewriteRule ^media/(.*)$ /home/afombrtu/backend.afombridal.com/Server/media/$1 [L]
+</IfModule>
+
+# Alias to the media directory
+Alias /media/ /home/afombrtu/backend.afombridal.com/Server/media/
+
+<Directory /home/afombrtu/backend.afombridal.com/Server/media/>
+    Require all granted
+    Options FollowSymLinks
+</Directory>

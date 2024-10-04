@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afom</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color:#111111;
+        }
+        .logo{
+            width:clamp(100px,4.5vw,350px);
+        }
+        .message_body{
+            width:60%;
+            min-width: 320px;
+            background-color: rgb(238, 238, 238);
+            height: fit-content;
+            margin: auto;
+            padding:1rem;
+            overflow: hidden;
+        }
+        /* .message_header{
+            display: flex;
+            flex-wrap: wrap;
+            overflow: hidden;
+            width:clamp(255px,7.5vw,360px);
+            gap:1rem;
+            justify-content: center;
+            margin-inline:auto;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:70px;
+
+        } */
+        
+        .afom_logo::after{
+            content: "";
+            width:1px;
+            height:45px;
+            display: inline-block;
+            background-color: black;
+            margin-left:1rem ;
+        }
+        .company_main{
+            position: relative;
+            height: fit-content;
+            width: fit-content;
+            align-self: flex-end;
+        }
+        .company_main_h1{
+            font-size: clamp(20px,4.5vw,30px);
+            height: fit-content;
+        }
+        .body_container{
+            width:90%;
+            padding-inline:10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="message_body">
+        <br/>
+        <center class="message_header">
+            <div style="height: 60px;" class="afom_logo"><img class="logo" src="https://onedrive.live.com/embed?resid=6C90990406BF84E9%212192&authkey=%21ADAsFKTslkPIjGo" alt="logo"></div>
+        </center>
+        <center><h2>A new message from client has been received</h2></center>
+        {% if data.name  %}
+        <center><p>From: {{ data.email }}</p></center>
+        {% endif %}
+        <hr>
+        <div class="body_container">
+            Subject: New Message from <b>{% if data.name %} {{data.name}} {% endif %}</b><br/><br/>
+            Dear afom,<br/><br/>
+            {{data.comment}}
+        </div>
+      
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6125338c.css",
+    "main.js": "./static/js/main.d8b0b027.js",
+    "static/media/Error.gif": "./static/media/Error.a4cc4e6d31ffc69e63c9.gif",
+    "static/media/couples-BW.png": "./static/media/couples-BW.671dc5f04fea321fe329.png",
+    "static/media/fixed_bride2.jpeg": "./static/media/fixed_bride2.03962056d91eececfefd.jpeg",
+    "static/media/bridepic3.jpg": "./static/media/bridepic3.a4c9c4f0ee25a515a899.jpg",
+    "static/media/Success.gif": "./static/media/Success.8592370a7c099585a0fb.gif",
+    "static/media/bride-BW.jpg": "./static/media/bride-BW.81bbeeff57c630ad70dc.jpg",
+    "static/media/bridepic.jpg": "./static/media/bridepic.525a3e130bf25f998b94.jpg",
+    "static/media/ladymodel3.jpg": "./static/media/ladymodel3.e03c6063319a407f3fde.jpg",
+    "static/media/brides.jpg": "./static/media/brides.51b4f77a06eab80a2049.jpg",
+    "static/media/Logo.png": "./static/media/Logo.dc7adfad38a6fe4ca9e8.png",
+    "static/media/lost-sarafin.otf": "./static/media/lost-sarafin.130c53ef62491a8c407b.otf",
+    "static/media/morgenaregular-vnvel.ttf": "./static/media/morgenaregular-vnvel.6b1fe9a4db5c10d951ef.ttf",
+    "static/media/wedding-dress-icon.png": "./static/media/wedding-dress-icon.e1d6f35159f37952d858.png",
+    "static/media/bit2.png": "./static/media/bit2.3e814059e56e96a5beb1.png",
+    "static/media/manage-post.png": "./static/media/manage-post.bce3bab6b80656e12e8b.png",
+    "static/media/wedding-dress2-icon.png": "./static/media/wedding-dress2-icon.01a94cc2febfdf4c1711.png",
+    "static/media/blog-icon.png": "./static/media/blog-icon.e8d18357d532d235ba9b.png",
+    "static/media/blogger-icon.png": "./static/media/blogger-icon.8b89c661c3d8f7c56c12.png",
+    "index.html": "./index.html",
+    "main.6125338c.css.map": "./static/css/main.6125338c.css.map",
+    "main.d8b0b027.js.map": "./static/js/main.d8b0b027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6125338c.css",
+    "static/js/main.d8b0b027.js"
+  ]
+}
