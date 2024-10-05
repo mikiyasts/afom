@@ -28,10 +28,14 @@ from django.db.models import Count
 from django.contrib.auth.models import User
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.permissions import AllowAny
+from rest_framework_simplejwt.authentication import JWTAuthentication
 import logging
 import requests
 import json
-
+from rest_framework.decorators import api_view, authentication_classes, permission_classes
+from rest_framework.authentication import TokenAuthentication
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 
 
@@ -95,56 +99,65 @@ def login(request):
 
     if not username or not password:
         return Response({'detail': 'Username and password are required.'}, status=status.HTTP_400_BAD_REQUEST)
+    
     user = authenticate(username=username, password=password)
     if not user:
-        logger.warning(f"Failed login attempt for user: {username}")
         return Response({'detail': 'Invalid credentials.'}, status=status.HTTP_401_UNAUTHORIZED)
-    token, _ = Token.objects.get_or_create(user=user)
+    
+    refresh = RefreshToken.for_user(user)
     user_serializer = UserSerializer(user)
     response = Response({
-        'token': token.key,
+        'refresh': str(refresh),
+        'access': str(refresh.access_token),
         'user': user_serializer.data
     }, status=status.HTTP_200_OK)
     response.set_cookie(
         key='auth_token',
-        value=token.key,
+        value=str(refresh.access_token),
         httponly=True,
         secure=True,
-        samesite='Lax',  
-        max_age=3600 
+        samesite='Lax',
+        max_age=3600
     )
 
     return response
 
 
 
-
-
 #GetUser
 @api_view(['GET'])
+@authentication_classes([JWTAuthentication])
 @permission_classes([IsAuthenticated])
 def GetUser(request):
-    user = request.user
-    serializer = UserSerializer(user)
-    return Response(serializer.data, status=status.HTTP_200_OK)
-
+    try:
+        user = request.user
+        if user.is_authenticated:
+            logger.info(f"User {user.username} is still logged in.")
+            return Response({'detail': 'User is still logged in.'}, status=status.HTTP_200_OK)
+        else:
+            logger.info("User is logged out.")
+            return Response({'detail': 'User is logged out.'}, status=status.HTTP_404_NOT_FOUND)
+    except Exception as e:
+        logger.error(f"Error checking user status: {str(e)}")
+        return Response({'detail': 'Error checking user status.'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
    
-#Logout
 @api_view(['POST'])
+@authentication_classes([JWTAuthentication])
 @permission_classes([IsAuthenticated])
 def logout(request):
+    refresh_token = request.data.get('refresh_token')
+    if not refresh_token:
+        return Response({'detail': 'Refresh token is required.'}, status=status.HTTP_400_BAD_REQUEST)
+    
     try:
-        token = Token.objects.get(user=request.user)
-        token.delete()
-        response = Response({'detail': 'Successfully logged out.'}, status=status.HTTP_200_OK)
-        response.delete_cookie('auth_token')
-        return response
-    except Token.DoesNotExist:
-        return Response({'detail': 'Invalid token or already logged out.'}, status=status.HTTP_400_BAD_REQUEST)
-
-
-
+        token_obj = RefreshToken(refresh_token)
+        token_obj.blacklist()
+        logger.info(f"User {request.user.username} successfully logged out.")
+        return Response({'detail': 'Successfully logged out.'}, status=status.HTTP_200_OK)
+    except Exception as e:
+        logger.error(f"Logout failed for user {request.user.username}: {str(e)}")
+        return Response({'detail': 'Invalid refresh token.'}, status=status.HTTP_400_BAD_REQUEST)
 #Blog list
 
 class PostListApiView(APIView):

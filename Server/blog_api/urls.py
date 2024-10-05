@@ -21,6 +21,10 @@ from .views import (
 AppointmentCreate,
     
 )
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView,
+    TokenRefreshView,
+)
 
 urlpatterns = [
     path('', views.APIendpoints),
@@ -44,7 +48,11 @@ urlpatterns = [
     path('appointment-create/', AppointmentCreate.as_view()),
     path('reserved_dates/', ReservedDate.as_view()),
     path('generate-apikey/',GenerateAPIKeyView.as_view()),
-    path('sendsms/',SendMessageView.as_view())
+    path('sendsms/',SendMessageView.as_view()),
 	
+
+
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
 
 ] 
