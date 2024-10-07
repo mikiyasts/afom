@@ -1,14 +1,16 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom";
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from '../../Components/Loader';
-
+import { AdminContext } from '../../Context/AuthContext';
 
 
 function AdminAuth() {
+
+  const {setIsAuth}=useContext(AdminContext);
   const [username, setUsername] = useState('');
   const navigate=useNavigate()
   const [loginStatus,setLoginStatus]=useState("Login")
@@ -22,28 +24,28 @@ function AdminAuth() {
         ?.split('=')[1];
     return cookieValue || '';
 };
+
+  
   // const [authStatus,setAuthstatus]=useState("")
 
   const handleLogin = async (e) => {
     e.preventDefault()
-    setLoginStatus("logingin")
-    return await axios.post(`${process.env.REACT_APP_URL}/api/login/`,{username,password},{ withCredentials: true ,headers: {
+    setLoginStatus("Logingin")
+    return await axios.post(`${process.env.REACT_APP_URL}/api/token/`,{username,password},{ withCredentials: true ,headers: {
       'X-CSRFToken': getCsrfToken(),
   }})
     .then(res => {
-      axios.get(`${process.env.REACT_APP_URL}/api/getuser/`,{ withCredentials: true ,headers: {
-        'X-CSRFToken': getCsrfToken(),
-        "Authorization":`API_KEY ${process.env.REACT_APP_API_KEY}`
-    }}).then(res=>{
-      
-          navigate("/dashboard")
-          sessionStorage.setItem("user",res.data.token)
-      }).catch(err=>{
-        console.log("err",err);
-      })
+      document.cookie=`access_token=${res.data.access}`
+      document.cookie=`refresh_token=${res.data.refresh}`
+      setIsAuth(true)
+      navigate("/dashboard")
     }).catch(err => {
       setLoginStatus("Login")
-      console.log(err)
+      setIsAuth(false)
+      console.log(err.response.status)
+      if(Number(err.response.status)===401){
+        toast.error("Wrong Cridential")
+      }
     })
     // console.log(loginform);
 

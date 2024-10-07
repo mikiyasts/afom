@@ -9,7 +9,7 @@ import CollectionDetail from "./pages/CollectionDetail";
 import Landingpage from "./pages/Landingpage";
 import { FaArrowUp } from "react-icons/fa";
 import { NavHashLink } from 'react-router-hash-link';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AdminAuth from "./pages/admin/AdminAuth";
 import CollectionPost from "./pages/admin/CollectionPost";
 import BlogPost from "./pages/admin/BlogPost";
@@ -22,10 +22,11 @@ import Calendar from "./Components/Calendar";
 import Appointment from "./pages/Appointment";
 import MyAppointments from "./pages/admin/MyAppointments";
 import Fitdate from "./pages/admin/Fitdate";
-
+import { AdminContext } from "./Context/AuthContext";
 function App() {
 
-  
+
+  const [isAuth, setIsAuth] = useState(false)
   let btnScrollToTop;
 
   const assign = () => {
@@ -44,35 +45,38 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      {/* hero */}
-      <Routes>
-        <Route index element={<Landingpage />} />
-        <Route path="/adminauth" element={<AdminAuth />} />
-        <Route path="/postcollection" element={<CollectionPost />} />
-        <Route path="/postblog" element={<BlogPost />} />
-        <Route path="/myappointments" element={<MyAppointments />} />
-        <Route path="/fitdate" element={<Fitdate />} />
-        <Route path="/appointment" element={<Appointment />} />
-        <Route path="/calendar" element={<Calendar />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/collections/:id" element={<CollectionDetail />} />
-        <Route path="/blogs/:id" element={<BlogDetail />} />
-        <Route path="/moreblogs" element={<MoreBlog />} />
-        <Route path="/morecollections" element={<MoreCollection />} />
-        <Route path="/managepost" element={<Managepost />} />
-        <Route path="/managepost/editcollection/:id" element={<Editcollection />} />
-        <Route path="/managepost/editblog/:id" element={<EditBlog />} />
-        <Route path="/test/:id" element={<Landingpage />} />
-        <Route path="*" element={<Notfound />} />
-      </Routes>
-      <NavHashLink to="/#Home">
-        <div className="backtotop" id="scrolltotop">
-          <FaArrowUp style={{ fontSize: "20px" }} />
-        </div>
-      </NavHashLink>
-      <Footer />
+      <AdminContext.Provider value={{ isAuth, setIsAuth }}>
+        <Navbar />
+        {/* hero */}
+        <Routes>
+          <Route index element={<Landingpage />} />
+          <Route path="/adminauth" element={<AdminAuth />} />
+          <Route path="/postcollection" element={<CollectionPost />} />
+          <Route path="/postblog" element={<BlogPost />} />
+          <Route path="/myappointments" element={<MyAppointments />} />
+          <Route path="/fitdate" element={<Fitdate />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/collections/:id" element={<CollectionDetail />} />
+          <Route path="/blogs/:id" element={<BlogDetail />} />
+          <Route path="/moreblogs" element={<MoreBlog />} />
+          <Route path="/morecollections" element={<MoreCollection />} />
+          <Route path="/managepost" element={<Managepost />} />
+          <Route path="/managepost/editcollection/:id" element={<Editcollection />} />
+          <Route path="/managepost/editblog/:id" element={<EditBlog />} />
+          <Route path="/test/:id" element={<Landingpage />} />
+          <Route path="*" element={<Notfound />} />
+        </Routes>
+        <NavHashLink to="/#Home">
+          <div className="backtotop" id="scrolltotop">
+            <FaArrowUp style={{ fontSize: "20px" }} />
+          </div>
+        </NavHashLink>
+        <Footer />
+      </AdminContext.Provider>
     </div>
+
   );
 }
 
