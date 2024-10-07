@@ -79,7 +79,7 @@ function Navbar() {
       }).catch(err => {
         console.log(err);
         
-        if (err.response.status === 401 || err.response.status === 400) {
+        if (err.response && err.response.status === 401 || err.response && err.response.status === 400) {
           setIsAuth(false)
         }
       })
