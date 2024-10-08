@@ -46,47 +46,47 @@ function Navbar() {
 
 
 
-  const getCsrfToken = () => {
-    const cookieValue = document.cookie
-      .split('; ')
-      .find(row => row.startsWith('csrftoken='))
-      ?.split('=')[1];
-    return cookieValue || '';
-  };
-  useEffect(() => {
+  // const getCsrfToken = () => {
+  //   const cookieValue = document.cookie
+  //     .split('; ')
+  //     .find(row => row.startsWith('csrftoken='))
+  //     ?.split('=')[1];
+  //   return cookieValue || '';
+  // };
+  // useEffect(() => {
 
-    const reftoken = document.cookie
-      .split('; ')
-      .find(row => row.startsWith('refresh_token='))
-      ?.split('=')[1];
-    const acstoken = document.cookie
-      .split('; ')
-      .find(row => row.startsWith('access_token='))
-      ?.split('=')[1];
-    // console.log(reftoken);
-    // console.log(acstoken);
+  //   const reftoken = document.cookie
+  //     .split('; ')
+  //     .find(row => row.startsWith('refresh_token='))
+  //     ?.split('=')[1];
+  //   const acstoken = document.cookie
+  //     .split('; ')
+  //     .find(row => row.startsWith('access_token='))
+  //     ?.split('=')[1];
+  //   // console.log(reftoken);
+  //   // console.log(acstoken);
 
-    const authUser = async () => {
+  //   const authUser = async () => {
 
-      await axios.post(`${process.env.REACT_APP_URL}/api/token/refresh/`, { refresh: reftoken }, {
-        headers: {
-          'X-CSRFToken': getCsrfToken(),
-          "Authorization": `Bearer ${acstoken}`
-        }
-      }).then(res => {
-        isAuth(true)
-        return console.log(res);
-      }).catch(err => {
-        console.log(err);
+  //     await axios.post(`${process.env.REACT_APP_URL}/api/token/refresh/`, { refresh: reftoken }, {
+  //       headers: {
+  //         'X-CSRFToken': getCsrfToken(),
+  //         "Authorization": `Bearer ${acstoken}`
+  //       }
+  //     }).then(res => {
+  //       setIsAuth(true)
+  //       return console.log(res);
+  //     }).catch(err => {
+  //       console.log(err);
         
-        if (err.response && err.response.status === 401 || err.response && err.response.status === 400) {
-          setIsAuth(false)
-        }
-      })
-    }
+  //       if (err.response && err.response.status === 401 || err.response && err.response.status === 400) {
+  //         setIsAuth(false)
+  //       }
+  //     })
+  //   }
 
-    authUser()
-  }, [])
+  //   authUser()
+  // }, [])
 
 
   return (

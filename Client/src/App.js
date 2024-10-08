@@ -23,6 +23,8 @@ import Appointment from "./pages/Appointment";
 import MyAppointments from "./pages/admin/MyAppointments";
 import Fitdate from "./pages/admin/Fitdate";
 import { AdminContext } from "./Context/AuthContext";
+import ProtectedRoute from "./Protected/ProtectedRoute";
+
 function App() {
 
 
@@ -51,20 +53,24 @@ function App() {
         <Routes>
           <Route index element={<Landingpage />} />
           <Route path="/adminauth" element={<AdminAuth />} />
-          <Route path="/postcollection" element={<CollectionPost />} />
-          <Route path="/postblog" element={<BlogPost />} />
-          <Route path="/myappointments" element={<MyAppointments />} />
-          <Route path="/fitdate" element={<Fitdate />} />
+
+          <Route element={<ProtectedRoute />}>
+            <Route path="/postcollection" element={<CollectionPost />} />
+            <Route path="/postblog" element={<BlogPost />} />
+            <Route path="/myappointments" element={<MyAppointments />} />
+            <Route path="/fitdate" element={<Fitdate />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/managepost/editcollection/:id" element={<Editcollection />} />
+            <Route path="/managepost/editblog/:id" element={<EditBlog />} />
+            <Route path="/managepost" element={<Managepost />} />
+          </Route>
+
           <Route path="/appointment" element={<Appointment />} />
           <Route path="/calendar" element={<Calendar />} />
-          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/collections/:id" element={<CollectionDetail />} />
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/moreblogs" element={<MoreBlog />} />
           <Route path="/morecollections" element={<MoreCollection />} />
-          <Route path="/managepost" element={<Managepost />} />
-          <Route path="/managepost/editcollection/:id" element={<Editcollection />} />
-          <Route path="/managepost/editblog/:id" element={<EditBlog />} />
           <Route path="/test/:id" element={<Landingpage />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
