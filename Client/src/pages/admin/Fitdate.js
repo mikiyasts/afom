@@ -6,6 +6,7 @@ import Loader from '../../Components/Loader';
 import CloseIcon from '@mui/icons-material/Close';
 import Success from "../../assets/Success.gif"
 import Error from "../../assets/Error.gif"
+import { useNavigate } from 'react-router-dom';
 
 function Fitdate() {
   const [loadingStatus,setLoadingStatus]=useState("Done")
@@ -17,6 +18,7 @@ function Fitdate() {
   const [checkday,setCheckday]=useState(0)
   const [date,setDate]=useState({scdate:""})
   const [busy,setBusy]=useState([])
+  const navigate=useNavigate()
   const [schedule,SetSchedule]=useState({
     client_name:"",
     client_phone:"",
@@ -64,6 +66,46 @@ function Fitdate() {
       })
      
     }
+
+    const getCsrfToken = () => {
+      const cookieValue = document.cookie
+          .split('; ')
+          .find(row => row.startsWith('csrftoken='))
+          ?.split('=')[1];
+      return cookieValue || '';
+    };
+    useEffect(()=>{
+  
+      const reftoken = document.cookie
+          .split('; ')
+          .find(row => row.startsWith('refresh_token='))
+          ?.split('=')[1];
+      const acstoken = document.cookie
+          .split('; ')
+          .find(row => row.startsWith('access_token='))
+          ?.split('=')[1];
+  // console.log(reftoken);
+  // console.log(acstoken);
+  
+      const authUser=async ()=>{
+  
+        await axios.post(`${process.env.REACT_APP_URL}/api/token/refresh/`,{refresh:reftoken},{headers:{
+          'X-CSRFToken': getCsrfToken(),
+          "Authorization":`Bearer ${acstoken}`
+        }}).then(res=>{
+          document.cookie=`access_token=${res.data.access}`
+          document.cookie=`refresh_token=${res.data.refresh}`
+          return console.log(res);
+        }).catch(err=>{
+          if(err.response.status===401 || err.response.status===400){
+            navigate("/adminauth")
+          }
+        })
+      }
+  
+      authUser()
+    },[])
+
 
 
     //Getting busy Date

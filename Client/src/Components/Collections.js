@@ -60,20 +60,20 @@ const Collections = () => {
           </label>
             <label htmlFor="graduation" className="div">
            <div>
-            graduation
+            Graduation
             <input type="radio" hidden name="tab" value="graduation" id="graduation" />
           </div>
             </label>
 
             <label htmlFor="wedding" className="div">
           <div>
-              wedding
+              Wedding
             <input type="radio" hidden name="tab" value="wedding" id="wedding" />
           </div>
             </label>
             <label htmlFor="dinner" className="div">
           <div>
-              dinner
+              Dinner
             <input type="radio" hidden name="tab" value="dinner" id="dinner" />
           </div>
             </label>

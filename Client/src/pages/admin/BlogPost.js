@@ -19,13 +19,46 @@ function BlogPost() {
   Quill.register('modules/imageResize', ImageResize);
 
 
+  const getCsrfToken = () => {
+    const cookieValue = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('csrftoken='))
+        ?.split('=')[1];
+    return cookieValue || '';
+  };
   useEffect(()=>{
-    if(!sessionStorage.getItem('user')) {
 
-    navigate('/adminauth');
+    const reftoken = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('refresh_token='))
+        ?.split('=')[1];
+    const acstoken = document.cookie
+        .split('; ')
+        .find(row => row.startsWith('access_token='))
+        ?.split('=')[1];
+// console.log(reftoken);
+// console.log(acstoken);
 
-  }
-  })
+    const authUser=async ()=>{
+
+      await axios.post(`${process.env.REACT_APP_URL}/api/token/refresh/`,{refresh:reftoken},{headers:{
+        'X-CSRFToken': getCsrfToken(),
+        "Authorization":`Bearer ${acstoken}`
+      }}).then(res=>{
+        document.cookie=`access_token=${res.data.access}`
+        document.cookie=`refresh_token=${res.data.refresh}`
+        return console.log(res);
+      }).catch(err=>{
+        if(err.response.status===401 || err.response.status===400){
+          navigate("/adminauth")
+        }
+      })
+    }
+
+    authUser()
+  },[])
+
+
   
   const  modules  = {
     toolbar: [
